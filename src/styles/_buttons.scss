@@ -1,0 +1,15 @@
+%mainButton {
+    background-color: #d40264;
+    padding: 7px 13px;
+    border: 0;
+    color: $subColor;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    &:focus {
+        outline: 0;
+    }
+}
+.btnWebOne {
+    @extend %mainButton;
+}
